@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git SCM') {
             steps {
-                git 'https://github.com/sureshguvva/pets.git'
+                git 'https://github.com/sureshguvva/file.git'
             }
         }
         }
